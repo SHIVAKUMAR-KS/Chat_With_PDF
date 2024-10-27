@@ -23,3 +23,13 @@ Success! Project initialization completed.
 You may now add components.
 
 ```
+
+```
+for icons
+npm i lucide react
+```
+
+```
+for color
+https://hypercolor.dev/
+```
