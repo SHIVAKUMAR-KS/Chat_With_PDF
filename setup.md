@@ -33,3 +33,18 @@ npm i lucide react
 for color
 https://hypercolor.dev/
 ```
+
+```
+database Neon
+```
+```
+drizzle orm
+npm install drizzle-orm
+
+npm install drizzle-kit
+```
+npm install @neondatabase/serverless
+
+npm install dotenv
+npm install pg
+
