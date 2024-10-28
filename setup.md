@@ -48,3 +48,8 @@ npm install @neondatabase/serverless
 npm install dotenv
 npm install pg
 
+## to migrate the drizzle
+npx drizzle-kit push
+
+to check the db
+npx drizzle-kit studio
