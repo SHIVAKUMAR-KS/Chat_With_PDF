@@ -36,6 +36,7 @@ https://hypercolor.dev/
 
 ```
 database Neon
+https://console.neon.tech/app/projects/fancy-silence-14624178/quickstart
 ```
 ```
 drizzle orm
@@ -53,3 +54,6 @@ npx drizzle-kit push
 
 to check the db
 npx drizzle-kit studio
+
+
+>npm install react-dropzone
