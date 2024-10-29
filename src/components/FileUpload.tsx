@@ -1,12 +1,14 @@
 "use client"
 
 import { uploadToS3 } from '@/lib/s3';
+import { useMutation } from '@tanstack/react-query';
 import { Inbox } from 'lucide-react';
 import React from 'react'
 import {useDropzone} from 'react-dropzone'
-
+import axios from "axios";
 
 const FileUpload = () => {
+ 
     const {getRootProps,getInputProps}=useDropzone({
         accept: {"application/pdf":["pdf"]},
         maxFiles:1,
@@ -16,7 +18,7 @@ const FileUpload = () => {
             if(file.size>10*1024*1024){
               //bigger than 10mb
               alert('please upload a smaller file')
-              return
+              return;
             }
             try {
               const data=await uploadToS3(file);

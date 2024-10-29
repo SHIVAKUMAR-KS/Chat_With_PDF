@@ -59,3 +59,9 @@ npx drizzle-kit studio
 >npm install react-dropzone
 
 npm install aws-sdk
+
+
+
+
+npm install @tanstack/react-query
+npm install axios
