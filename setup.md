@@ -65,3 +65,5 @@ npm install aws-sdk
 
 npm install @tanstack/react-query
 npm install axios
+
+npm i react-hot-toast
