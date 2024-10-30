@@ -25,24 +25,29 @@ You may now add components.
 ```
 
 ```
+### icon
 for icons
 npm i lucide react
 ```
 
 ```
+### color
 for color
 https://hypercolor.dev/
 ```
 
 ```
+### neon db
 database Neon
 https://console.neon.tech/app/projects/fancy-silence-14624178/quickstart
 ```
 ```
+### drizzle orm
 drizzle orm
 npm install drizzle-orm
 
 npm install drizzle-kit
+```
 ```
 npm install @neondatabase/serverless
 
@@ -67,3 +72,11 @@ npm install @tanstack/react-query
 npm install axios
 
 npm i react-hot-toast
+
+### PineCone db
+```
+npm install @pinecone-database/pinecone
+
+
+https://app.pinecone.io/organizations/-OAOE5WpXQHdGl6fGg0a/projects/84bf848d-e9e5-4dc5-b84c-0c2ee94fe566/indexes
+```
