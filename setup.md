@@ -80,3 +80,7 @@ npm install @pinecone-database/pinecone
 
 https://app.pinecone.io/organizations/-OAOE5WpXQHdGl6fGg0a/projects/84bf848d-e9e5-4dc5-b84c-0c2ee94fe566/indexes
 ```
+
+```
+npm i langchain
+```
