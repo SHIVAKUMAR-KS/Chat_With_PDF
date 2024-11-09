@@ -84,3 +84,4 @@ https://app.pinecone.io/organizations/-OAOE5WpXQHdGl6fGg0a/projects/84bf848d-e9e
 ```
 npm i langchain
 ```
+npm i openai-edge
